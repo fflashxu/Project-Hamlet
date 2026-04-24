@@ -1,0 +1,230 @@
+{
+  "version": "1.0",
+  "dimensions": [
+    {
+      "id": "get_things_done",
+      "name_zh": "把事做成",
+      "name_en": "Get Things Done",
+      "name_ja": "物事を成し遂げる",
+      "question_zh": "你会想办法搞定吗？",
+      "question_en": "Do you find ways to make things happen?",
+      "question_ja": "あなたは物事を成し遂げる方法を見つけますか？",
+      "color": "#FF6B6B",
+      "icon": "checkmark.circle.fill"
+    },
+    {
+      "id": "see_further",
+      "name_zh": "看得更远",
+      "name_en": "See Further",
+      "name_ja": "遠くを見る",
+      "question_zh": "你能跳出当下看全局吗？",
+      "question_en": "Can you step back and see the bigger picture?",
+      "question_ja": "全体像を見渡すことができますか？",
+      "color": "#4ECDC4",
+      "icon": "binoculars.fill"
+    },
+    {
+      "id": "push_change",
+      "name_zh": "推动改变",
+      "name_en": "Push Change",
+      "name_ja": "変化を推進する",
+      "question_zh": "你会在不对的时候主动推它变吗？",
+      "question_en": "Do you challenge the status quo when things aren't right?",
+      "question_ja": "間違っているときに変化を起こしますか？",
+      "color": "#FFE66D",
+      "icon": "arrow.triangle.2.circlepath"
+    },
+    {
+      "id": "move_others",
+      "name_zh": "带动他人",
+      "name_en": "Move Others",
+      "name_ja": "他者を動かす",
+      "question_zh": "你能让人跟着你一起做事吗？",
+      "question_en": "Can you get people to move with you?",
+      "question_ja": "人々をあなたと一緒に動かせますか？",
+      "color": "#A8E6CF",
+      "icon": "person.3.fill"
+    },
+    {
+      "id": "navigate_resistance",
+      "name_zh": "穿越阻力",
+      "name_en": "Navigate Resistance",
+      "name_ja": "抵抗を乗り越える",
+      "question_zh": "没有权力时你能让事发生吗？",
+      "question_en": "Can you make things happen without formal authority?",
+      "question_ja": "公式な権限なしに物事を実現できますか？",
+      "color": "#C7B8EA",
+      "icon": "shield.fill"
+    },
+    {
+      "id": "grow_people",
+      "name_zh": "让人成长",
+      "name_en": "Grow People",
+      "name_ja": "人を育てる",
+      "question_zh": "你会帮身边的人变得更好吗？",
+      "question_en": "Do you help the people around you become better?",
+      "question_ja": "周りの人をより良くするために助けますか？",
+      "color": "#88D8B0",
+      "icon": "leaf.fill"
+    },
+    {
+      "id": "read_needs",
+      "name_zh": "读懂需求",
+      "name_en": "Read Needs",
+      "name_ja": "ニーズを読む",
+      "question_zh": "你能感知别人真正想要的吗？",
+      "question_en": "Can you sense what people truly need?",
+      "question_ja": "人々が本当に必要としていることを感じ取れますか？",
+      "color": "#F7B2B7",
+      "icon": "heart.text.square.fill"
+    },
+    {
+      "id": "stay_true",
+      "name_zh": "做自己",
+      "name_en": "Stay True",
+      "name_ja": "自分らしくある",
+      "question_zh": "压力下你还能保持本真吗？",
+      "question_en": "Can you stay authentic under pressure?",
+      "question_ja": "プレッシャーの下でも本真を保てますか？",
+      "color": "#F9C784",
+      "icon": "person.fill.checkmark"
+    },
+    {
+      "id": "bridge_difference",
+      "name_zh": "跨越差异",
+      "name_en": "Bridge Difference",
+      "name_ja": "違いを橋渡しする",
+      "question_zh": "你能和非常不同的人建立信任吗？",
+      "question_en": "Can you build trust with people very different from you?",
+      "question_ja": "自分とまったく異なる人と信頼を築けますか？",
+      "color": "#B5D5C5",
+      "icon": "link.circle.fill"
+    },
+    {
+      "id": "create_value",
+      "name_zh": "创造价值",
+      "name_en": "Create Value",
+      "name_ja": "価値を創造する",
+      "question_zh": "你能把想法变成别人愿意买单的吗？",
+      "question_en": "Can you turn ideas into something others value?",
+      "question_ja": "アイデアを他者が価値を認めるものにできますか？",
+      "color": "#FFB347",
+      "icon": "sparkles"
+    },
+    {
+      "id": "read_the_room",
+      "name_zh": "看懂全局",
+      "name_en": "Read the Room",
+      "name_ja": "場の空気を読む",
+      "question_zh": "你知道事情背后的逻辑和关系吗？",
+      "question_en": "Do you understand the underlying dynamics at play?",
+      "question_ja": "物事の背後にある論理と関係を理解していますか？",
+      "color": "#85C1E9",
+      "icon": "eye.fill"
+    },
+    {
+      "id": "make_something",
+      "name_zh": "创造新事物",
+      "name_en": "Make Something",
+      "name_ja": "何かを作る",
+      "question_zh": "你能从无到有造出东西吗？",
+      "question_en": "Can you build something from nothing?",
+      "question_ja": "ゼロから何かを作り出せますか？",
+      "color": "#D7BDE2",
+      "icon": "hammer.fill"
+    },
+    {
+      "id": "self_regulate",
+      "name_zh": "驾驭自己",
+      "name_en": "Self Regulate",
+      "name_ja": "自己調整する",
+      "question_zh": "你能管理自己的状态和情绪吗？",
+      "question_en": "Can you manage your own state and emotions?",
+      "question_ja": "自分の状態と感情を管理できますか？",
+      "color": "#A9CCE3",
+      "icon": "brain.head.profile"
+    },
+    {
+      "id": "stay_curious",
+      "name_zh": "保持好奇",
+      "name_en": "Stay Curious",
+      "name_ja": "好奇心を持ち続ける",
+      "question_zh": "你有持续探索未知的驱动力吗？",
+      "question_en": "Are you driven to keep exploring the unknown?",
+      "question_ja": "未知を探求し続ける原動力がありますか？",
+      "color": "#A3E4D7",
+      "icon": "magnifyingglass.circle.fill"
+    },
+    {
+      "id": "think_in_systems",
+      "name_zh": "系统思考",
+      "name_en": "Think in Systems",
+      "name_ja": "システム思考",
+      "question_zh": "你能看到事物之间的连接吗？",
+      "question_en": "Can you see the connections between things?",
+      "question_ja": "物事のつながりを見ることができますか？",
+      "color": "#F1948A",
+      "icon": "circle.grid.3x3.fill"
+    }
+  ],
+  "archetypes": [
+    {
+      "id": "builder",
+      "name_zh": "建构者",
+      "name_en": "Builder",
+      "name_ja": "ビルダー",
+      "description_zh": "擅长从无到有，偏执行",
+      "primary_dimensions": ["get_things_done", "make_something", "create_value"]
+    },
+    {
+      "id": "connector",
+      "name_zh": "连接者",
+      "name_en": "Connector",
+      "name_ja": "コネクター",
+      "description_zh": "擅长建立关系，偏影响",
+      "primary_dimensions": ["move_others", "navigate_resistance", "bridge_difference"]
+    },
+    {
+      "id": "disruptor",
+      "name_zh": "颠覆者",
+      "name_en": "Disruptor",
+      "name_ja": "ディスラプター",
+      "description_zh": "质疑现状，推动变革",
+      "primary_dimensions": ["push_change", "see_further", "think_in_systems"]
+    },
+    {
+      "id": "nurturer",
+      "name_zh": "培育者",
+      "name_en": "Nurturer",
+      "name_ja": "ナーチャラー",
+      "description_zh": "帮助他人成长",
+      "primary_dimensions": ["grow_people", "read_needs", "stay_true"]
+    },
+    {
+      "id": "explorer",
+      "name_zh": "探索者",
+      "name_en": "Explorer",
+      "name_ja": "エクスプローラー",
+      "description_zh": "好奇驱动，跨界思维",
+      "primary_dimensions": ["stay_curious", "make_something", "see_further"]
+    },
+    {
+      "id": "steward",
+      "name_zh": "守护者",
+      "name_en": "Steward",
+      "name_ja": "スチュワード",
+      "description_zh": "原则坚定，价值观驱动",
+      "primary_dimensions": ["stay_true", "self_regulate", "read_the_room"]
+    }
+  ],
+  "levels": {
+    "1": { "name_zh": "初现", "name_en": "Emerging", "range": [0, 1.5] },
+    "2": { "name_zh": "显现", "name_en": "Showing", "range": [1.5, 3.0] },
+    "3": { "name_zh": "专注", "name_en": "Focused", "range": [3.0, 5.0] },
+    "4": { "name_zh": "精通", "name_en": "Proficient", "range": [5.0, 8.0] },
+    "5": { "name_zh": "复杂", "name_en": "Complex", "range": [8.0, 12.0] },
+    "6": { "name_zh": "卓越", "name_en": "Advanced", "range": [12.0, 18.0] },
+    "7": { "name_zh": "变革", "name_en": "Transforming", "range": [18.0, 26.0] },
+    "8": { "name_zh": "开创", "name_en": "Pioneering", "range": [26.0, 999.0] }
+  }
+}

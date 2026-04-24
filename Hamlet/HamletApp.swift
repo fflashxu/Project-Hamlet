@@ -1,23 +1,18 @@
-//
-//  HamletApp.swift
-//  Hamlet
-//
-//  Created by Harry Xu on 2026/4/24.
-//
-
 import SwiftUI
 import SwiftData
+import Combine
 
 @main
 struct HamletApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
+    @StateObject private var themeEngine = ThemeEngine.shared
+    @StateObject private var aiManager = AIProviderManager.shared
+    @StateObject private var languageManager = LanguageManager.shared
 
+    var sharedModelContainer: ModelContainer = {
+        let schema = Schema([Entry.self, DimensionState.self])
+        let config = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
         do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
+            return try ModelContainer(for: schema, configurations: [config])
         } catch {
             fatalError("Could not create ModelContainer: \(error)")
         }
@@ -26,6 +21,9 @@ struct HamletApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(themeEngine)
+                .environmentObject(aiManager)
+                .environmentObject(languageManager)
         }
         .modelContainer(sharedModelContainer)
     }
